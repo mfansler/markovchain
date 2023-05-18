@@ -24,7 +24,7 @@ Description: Functions and S4 methods to create and manage discrete time Markov
     Some functions for continuous times Markov chains depends on the suggested ctmcd package, that, 
     as May 2023, can be retrieved from <https://cran.r-project.org/src/contrib/Archive/ctmcd/ctmcd_1.4.2.tar.gz>.
 License: MIT + file LICENSE
-Depends: R (>= 4.3.0), methods
+Depends: R (>= 4.1.0), methods
 Imports: igraph, Matrix (>= 1.5-0), expm, stats4, parallel, Rcpp (>=
         1.0.2), RcppParallel, utils, stats, grDevices
 Suggests: knitr, testthat, diagram, DiagrammeR, msm, Rsolnp, rmarkdown,
